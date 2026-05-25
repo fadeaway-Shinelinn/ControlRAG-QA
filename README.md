@@ -17,7 +17,7 @@
 ## 目录结构
 
 ```text
-ControlRAG-QA_GitHub/
+ControlRAG-QA/
 ├─ rag_core.py                                   # RAG 后端核心逻辑
 ├─ rag_demo.py                                   # Gradio 问答系统界面
 ├─ pure_llm_demo.py                              # 纯 LLM 基线问答脚本
