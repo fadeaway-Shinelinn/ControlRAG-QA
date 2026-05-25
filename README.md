@@ -12,9 +12,14 @@ cd ControlRAG-QA
 pip install -r requirements.txt
 copy .env.example .env
 python rag_demo.py
+```
 
-然后在 .env 文件中填写自己的 DashScope API Key：
+然后在 `.env` 文件中填写自己的 DashScope API Key：
+
+```env
 DASHSCOPE_API_KEY=your_dashscope_api_key_here
+```
+
 启动后在浏览器中打开终端显示的 Gradio 地址，即可使用系统。
 
 ## 项目功能
